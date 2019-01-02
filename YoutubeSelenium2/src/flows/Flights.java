@@ -18,7 +18,7 @@ public class Flights {
 		
 		WebElement passCount = driver.findElement(By.xpath(FlightFinder.dropdown_Passangers));
 		Select select1 = new Select(passCount);
-		select1.selectByIndex(2);
+		select1.selectByIndex(1);
 		
 		WebElement dptFrm = driver.findElement(By.xpath(FlightFinder.dropdown_departFrom));
 		Select select2 = new Select(dptFrm);
